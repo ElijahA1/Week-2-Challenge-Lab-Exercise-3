@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             // Get the number to be displayed
-            Console.Write("Enter a number: ");
-            string number = Console.ReadLine();
+            Console.Write("Enter a character: ");
+            char number = Convert.ToChar(Console.ReadLine());
 
             // Get the width of the triangle
             Console.Write("\nEnter the desired width: ");
@@ -20,7 +20,6 @@
                 Console.WriteLine("\n");
                 for (int j = 0; j < i; j++)
                 {
-
                     Console.Write(number);
                 }
             }
